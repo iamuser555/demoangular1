@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo1';
+  hide=false;
+  togleHide(){
+    this.hide=!this.hide
+  }
   onClick(){
     console.log('data');
   }
